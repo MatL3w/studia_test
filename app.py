@@ -16,3 +16,34 @@ print(x)
 x = str(3)    # x will be '3'
 y = int(3)    # y will be 3
 z = float(3)  # z will be 3.0
+
+# Many Values to Multiple Variables
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+# concatenatio 
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+
+# function
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+
+# global keyword
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
+# type 
+x = 5
+print(type(x))
