@@ -1,0 +1,8 @@
+{
+  "scripts": {
+  "python": "python app.py"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
