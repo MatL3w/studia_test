@@ -159,3 +159,8 @@
 # print(5 in lista)
 # print(5 not in lista)
 # print(12 in lista)
+x=11
+y=4
+x =x % y
+x =x % y
+print(True)
