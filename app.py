@@ -102,6 +102,60 @@
 # del liczby[0]
 # print(liczby)
 
-liczby = [111, 7, 2, 1]
-print(liczby[-1])
-print(liczby[-2])
+# liczby = [111, 7, 2, 1]
+# print(liczby[-1])
+# print(liczby[-2])
+# x=input('lol:')
+# print(x)
+# print('len:',len(liczby))
+# liczby.
+
+# liczby = [111, 7, 2, 1]
+# print(len(liczby))
+# print(liczby)
+
+# ###
+
+# liczby.append(4)
+
+# print(len(liczby))
+# print(liczby)
+
+# ###
+
+# liczby.insert(0, 222)
+# print(len(liczby))
+# # print(liczby)
+# moja_lista = [] # Tworzenie pustej listy.
+
+# for i in range(5):
+#     moja_lista.insert(0, i + 1)
+
+# print(moja_lista)
+
+# moja_lista = [10, 1, 8, 3, 5]
+# suma = 0
+
+# for i in range(len(moja_lista)):
+#     suma += moja_lista[i]
+
+# # print(suma)
+# my_list = [5, 2, 8, 1, 3]
+# my_list.sort()  # Sorts the list in place
+# print(my_list)  # Output: [1, 2, 3, 5, 8]
+
+# my_list = ["apple", "banana", "cherry", "date",1,2]
+# string_list = list(map(str, my_list))
+# sorted_list = sorted(string_list)
+# print(sorted_list)  # Output: ['date', 'cherry', 'banana', 'apple']
+
+# # Kopiowanie części listy.
+# lista = [10, 8, 6, 4, 2]
+# nowa_lista = lista[0:3]
+# print(nowa_lista)
+
+# lista = [0, 3, 12, 8, 2]
+
+# print(5 in lista)
+# print(5 not in lista)
+# print(12 in lista)
