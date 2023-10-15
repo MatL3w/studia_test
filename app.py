@@ -101,3 +101,7 @@
 
 # del liczby[0]
 # print(liczby)
+
+liczby = [111, 7, 2, 1]
+print(liczby[-1])
+print(liczby[-2])
