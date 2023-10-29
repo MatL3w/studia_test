@@ -159,8 +159,118 @@
 # print(5 in lista)
 # print(5 not in lista)
 # print(12 in lista)
-x=11
-y=4
-x =x % y
-x =x % y
-print(True)
+# x=11
+# y=4
+# x =x % y
+# x =x % y
+# print(x)
+
+# t =[[3-i for i in range (3)] for j in range (3)]
+# s=0
+# for i in range (3):
+#     s+= t[i][i]
+# print(s)
+    
+# lst = [1,2,3,4]
+# print(lst[-3:-2])
+# c= 1 & 0
+# d= 1 | 0
+# e = 1 ^0
+# print (c+d+e)
+
+# nums =[1,2,3]
+# vals = nums[-1:-2]
+# print(vals)
+
+# x = 1 
+# x=x==x
+# print(x)
+
+# for i in range(1):
+#     print("x")
+# else:
+#     print("x")
+    
+# print(0%2)
+# lst =[[0,1,2,3] for i in range(2)]
+# print(lst[2][0])
+# d1 = {'Adam Smith':'A', 'Judy Paxton':'B+'}
+# d2 = {'Mary Louis':'A', 'Patrick White':'C'}
+# d3 = {}
+
+# for item in (d1, d2):
+#     d3.update(item)
+
+# print(d3)
+
+# lst = ["car", "Ford", "flower", "Tulip"]
+
+# tup = tuple(lst)
+# print(tup)
+
+# colors = {
+#     "white" : (255, 255, 255),
+#     "grey"  : (128, 128, 128),
+#     "red"   : (255, 0, 0),
+#     "green" : (0, 128, 0)
+#     }
+
+# for col, rgb in colors.items():
+#     print(col, ":", rgb)
+
+## przekazywanie argumentow pozycyjnych 
+
+# def przedstawienie(imie, nazwisko):
+#     print("Cześć, nazywam się", imie, nazwisko)
+
+# przedstawienie(imie = "James", nazwisko = "Bond")
+# przedstawienie(nazwisko = "Skywalker", imie = "Luke")
+
+# def suma(a, b=2, c=1):
+#     print(a + b + c)
+
+# suma(a=1, c=3)
+# def test_zakresu():
+#     x = 123
+
+# def moja_funkcja():
+#     print("Czy znam tę zmienną?", var)
+
+
+# var = 1
+# moja_funkcja()
+# print(var)
+
+# def moja_funkcja():
+#     global var
+#     var = 2
+#     print("Czy znam tę zmienną?", var)
+
+
+# var = 1
+# moja_funkcja()
+# print(var)
+
+
+
+# # Pobierz czas w sekundach od użytkownika
+# czas_w_sekundach = int(input("Podaj czas w sekundach: "))
+
+# # Oblicz godziny, minuty i pozostałe sekundy
+# godziny = czas_w_sekundach // 3600
+# czas_w_sekundach %= 3600
+# minuty = czas_w_sekundach // 60
+# sekundy = czas_w_sekundach % 60
+
+# # Wyświetl przeliczony czas
+# print(f"Czas: {godziny} godzin, {minuty} minut, {sekundy} sekund")
+
+n = int(input("Podaj wymiar czekolady n: "))
+m = int(input("Podaj wymiar czekolday m: "))
+k = int(input("Podaj ilosc wyllamanych czesci czekolady: "))
+
+wynik = (k == n or k == m)
+if wynik:
+    print("mozna")
+else:
+    print("nie mozna")
